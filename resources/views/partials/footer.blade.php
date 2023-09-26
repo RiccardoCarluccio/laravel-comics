@@ -49,10 +49,10 @@
 @endphp
 
 <footer>
-  <div id="footer-background" class="container-fluid">
+  <div id="footer-background" class="container-fluid bg-dark">
     <div class="container">
       <div class="d-flex justify-content-between align-items-center">
-        <div class="d-flex bg-dark">
+        <div class="d-flex">
           @foreach ($footerItems as $footerItem)
             <div class="d-flex flex-wrap flex-column gap-5">
               <h3 class="text-white text-uppercase fw-bold">
