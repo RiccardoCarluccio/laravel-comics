@@ -1,5 +1,5 @@
 @php
-  $menu = [
+  $navLinks = [
     ["title" => "Characters"],
     ["title" => "Comics"],
     ["title" => "Movies"],
@@ -19,7 +19,7 @@
       <img id="logo" src="../../vue-dc-comics-1/img/dc-logo.png" alt="DC Logo">
 
       <ul class="nav nav-pills">
-        @foreach ($menu as $item)
+        @foreach ($navLinks as $item)
           <li class="nav-item" v-for="link in navLinks">
             <a href="#" class="nav-link text-black fw-bold fs-6">
               {{ $item["title"] }}
