@@ -20,7 +20,7 @@
 
       <ul class="nav nav-pills">
         @foreach ($navLinks as $item)
-          <li class="nav-item" v-for="link in navLinks">
+          <li class="nav-item">
             <a href="#" class="nav-link text-black fw-bold fs-6">
               {{ $item["name"] }}
             </a>
