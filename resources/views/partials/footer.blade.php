@@ -1,35 +1,49 @@
 @php
-  $dcComicsLinks => [
-    [ "name" => "characters"],
-    [ "name" => "comics"],
-    [ "name" => "movies"],
-    [ "name" => "tv"],
-    [ "name" => "games"],
-    [ "name" => "videos"],
-    [ "name" => "news"],
-  ],
-  $shop => [
-    [ "name" => "shop dc"],
-    [ "name" => "shop dc collectibles"],
-  ],
-  $dc => [
-    [ "name" => "terms of use"],
-    [ "name" => "privacy policy (new)"],
-    [ "name" => "ad choices"],
-    [ "name" => "advertising"],
-    [ "name" => "jobs"],
-    [ "name" => "subscription"],
-    [ "name" => "talent workshop"],
-    [ "name" => "cpsc certificates"],
-    [ "name" => "ratings"],
-    [ "name" => "shop help"],
-    [ "name" => "contact us"],
-  ],
-  $sites => [
-    [ "name" => "dc"],
-    [ "name" => "mad magazine"],
-    [ "name" => "dc kids"],
-    [ "name" => "dc universe"],
-    [ "name" => "dc power visa"],
-  ],
+  $footerElements = [
+    [
+      "name" => "Dc Comics",
+      "items" => [
+        "characters",
+        "comics",
+        "movies",
+        "tv",
+        "games",
+        "videos",
+        "news"
+      ]
+    ],
+    [
+      "name" => "Shop",
+      "items" => [
+        "shop dc",
+        "shop dc collectibles"
+      ]
+    ],
+    [
+      "name" => "DC",
+      "items" => [
+        "terms of use",
+        "privacy policy (new)",
+        "ad choices",
+        "advertising",
+        "jobs",
+        "subscription",
+        "talent workshop",
+        "cpsc certificates",
+        "ratings",
+        "shop help",
+        "contact us"
+      ]
+    ],
+    [
+      "name" => "Sites",
+      "items" => [
+        "dc",
+        "mad magazine",
+        "dc kids",
+        "dc universe",
+        "dc power visa"
+      ]  
+    ]
+  ];
 @endphp
