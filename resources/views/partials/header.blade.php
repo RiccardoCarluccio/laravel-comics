@@ -1,15 +1,15 @@
 @php
   $navLinks = [
-    ["title" => "Characters"],
-    ["title" => "Comics"],
-    ["title" => "Movies"],
-    ["title" => "Tv"],
-    ["title" => "Games"],
-    ["title" => "Collectibles"],
-    ["title" => "Videos"],
-    ["title" => "Fans"],
-    ["title" => "News"],
-    ["title" => "Shop"]
+    ["name" => "Characters"],
+    ["name" => "Comics"],
+    ["name" => "Movies"],
+    ["name" => "Tv"],
+    ["name" => "Games"],
+    ["name" => "Collectibles"],
+    ["name" => "Videos"],
+    ["name" => "Fans"],
+    ["name" => "News"],
+    ["name" => "Shop"]
   ];
 @endphp
 
@@ -22,7 +22,7 @@
         @foreach ($navLinks as $item)
           <li class="nav-item" v-for="link in navLinks">
             <a href="#" class="nav-link text-black fw-bold fs-6">
-              {{ $item["title"] }}
+              {{ $item["name"] }}
             </a>
           </li>
         @endforeach        

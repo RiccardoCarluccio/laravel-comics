@@ -1,0 +1,35 @@
+@php
+  $dcComicsLinks: [
+          [ "name": "characters", path: "/" ],
+          [ "name": "comics", path: "/" ],
+          [ "name": "movies", path: "/" ],
+          [ "name": "tv", path: "/" ],
+          [ "name": "games", path: "/" ],
+          [ "name": "videos", path: "/" ],
+          [ "name": "news", path: "/" ],
+        ],
+  $shop: [
+    [ "name": "shop dc", path: "/" ],
+    [ "name": "shop dc collectibles", path: "/" ],
+  ],
+  $dc: [
+    [ "name": "terms of use", path: "/" ],
+    [ "name": "privacy policy (new)", path: "/" ],
+    [ "name": "ad choices", path: "/" ],
+    [ "name": "advertising", path: "/" ],
+    [ "name": "jobs", path: "/" ],
+    [ "name": "subscription", path: "/" ],
+    [ "name": "talent workshop", path: "/" ],
+    [ "name": "cpsc certificates", path: "/" ],
+    [ "name": "ratings", path: "/" ],
+    [ "name": "shop help", path: "/" ],
+    [ "name": "contact us", path: "/" ],
+  ],
+  $sites: [
+    [ "name": "dc", path: "/" ],
+    [ "name": "mad magazine", path: "/" ],
+    [ "name": "dc kids", path: "/" ],
+    [ "name": "dc universe", path: "/" ],
+    [ "name": "dc power visa", path: "/" ],
+  ],
+@endphp
